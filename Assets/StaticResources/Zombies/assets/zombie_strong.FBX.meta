@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: bf97c4c29138ddf4da5c964238497161
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Base HumanRDigit31
+    100004: Base HumanRDigit22
+    100006: Base HumanRibcage
+    100008: Base HumanLDigit21
+    100010: Base HumanLDigit31
+    100012: Base HumanRDigit12
+    100014: Base HumanLDigit11 1
+    100016: Base HumanSpine3
+    100018: Base HumanRIKTarget
+    100020: bon_gob_war_jaw_tip
+    100022: Base HumanLIKTarget
+    100024: fantasy horde-zombie_strong
+    100026: Base HumanSpine1
+    100028: Base HumanLThigh
+    100030: Base HumanLDigit41
+    100032: Base HumanLDigit32
+    100034: Base HumanRCollarbone
+    100036: Base HumanSpine2
+    100038: Base HumanLDigit22
+    100040: Base HumanLForearm
+    100042: Base HumanLDigit12
+    100044: Base HumanRDigit13
+    100046: Base HumanLDigit13
+    100048: Base HumanLCollarbone
+    100050: Base HumanPelvis
+    100052: Base HumanRUpperarm
+    100054: Base HumanRDigit11 1
+    100056: Base HumanRDigit42
+    100058: Base HumanRDigit21
+    100060: Base HumanRPlatform
+    100062: Base HumanLPlatform
+    100064: Base HumanRForearm
+    100066: Base HumanRDigit11
+    100068: Base HumanRThigh
+    100070: Base HumanLDigit11
+    100072: Base HumanLDigit42
+    100074: Base HumanLUpperarm
+    100076: Base HumanRDigit41
+    100078: Base HumanRDigit32
+    100080: bon_gob_war_jaw
+    100082: Base HumanHead
+    100084: Base HumanNeck
+    100086: Base HumanRPalm
+    100088: Base HumanLPalm
+    100090: Base HumanRFoot
+    100092: Base HumanRCalf
+    100094: Base HumanLFoot
+    100096: Base HumanLCalf
+    100098: Base Human
+    400000: //RootNode
+    400002: Base HumanRDigit31
+    400004: Base HumanRDigit22
+    400006: Base HumanRibcage
+    400008: Base HumanLDigit21
+    400010: Base HumanLDigit31
+    400012: Base HumanRDigit12
+    400014: Base HumanLDigit11 1
+    400016: Base HumanSpine3
+    400018: Base HumanRIKTarget
+    400020: bon_gob_war_jaw_tip
+    400022: Base HumanLIKTarget
+    400024: fantasy horde-zombie_strong
+    400026: Base HumanSpine1
+    400028: Base HumanLThigh
+    400030: Base HumanLDigit41
+    400032: Base HumanLDigit32
+    400034: Base HumanRCollarbone
+    400036: Base HumanSpine2
+    400038: Base HumanLDigit22
+    400040: Base HumanLForearm
+    400042: Base HumanLDigit12
+    400044: Base HumanRDigit13
+    400046: Base HumanLDigit13
+    400048: Base HumanLCollarbone
+    400050: Base HumanPelvis
+    400052: Base HumanRUpperarm
+    400054: Base HumanRDigit11 1
+    400056: Base HumanRDigit42
+    400058: Base HumanRDigit21
+    400060: Base HumanRPlatform
+    400062: Base HumanLPlatform
+    400064: Base HumanRForearm
+    400066: Base HumanRDigit11
+    400068: Base HumanRThigh
+    400070: Base HumanLDigit11
+    400072: Base HumanLDigit42
+    400074: Base HumanLUpperarm
+    400076: Base HumanRDigit41
+    400078: Base HumanRDigit32
+    400080: bon_gob_war_jaw
+    400082: Base HumanHead
+    400084: Base HumanNeck
+    400086: Base HumanRPalm
+    400088: Base HumanLPalm
+    400090: Base HumanRFoot
+    400092: Base HumanRCalf
+    400094: Base HumanLFoot
+    400096: Base HumanLCalf
+    400098: Base Human
+    4300000: fantasy horde-zombie_strong
+    11100000: //RootNode
+    13700000: Base HumanPelvis
+    13700002: fantasy horde-zombie_strong
+  materials:
+    importMaterials: 1
+    materialName: 3
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
