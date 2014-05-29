@@ -1,6 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Externals\TerrainToolkit\Editor\TerrainToolkitEditor.cs">
+    <Files>
+      <File FileName="..\GROWClient\Assets\Scripts\Managers\Database.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Managers\ActorProperties.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Externals\NGUI\Scripts\UI\UIFont.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Battle\MapBlock.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Battle\Actor.cs" Line="1" Column="1" />
+      <File FileName="Assets\Externals\TerrainToolkit\Editor\TerrainToolkitEditor.cs" Line="47" Column="103" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

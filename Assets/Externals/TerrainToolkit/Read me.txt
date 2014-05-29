@@ -1,11 +1,11 @@
 Terrain Toolkit
-Version 1.0 (Release)
+Version 1.0.3 (Release)
 Unity Summer of Code 2009
 By Sándor Moldán
 
 Installation instructions:
 
-Open the Unity project you wish to use the Terrain Toolkit in and double click "TerrainToolkit_v1.0.unitypackage" to import it into your project. You may need to unzip it first.
+Open the Unity project you wish to use the Terrain Toolkit in and double click "TerrainToolkit_v1.0.3.unitypackage" to import it into your project. You may need to unzip it first.
 
 Quick start guide:
 
