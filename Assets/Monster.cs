@@ -1,25 +1,27 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Monster : MonoBehaviour 
+public class Monster : Agent 
 {
-	Vector2 position;
-	Vector2 velocity;
-
-	float direction;
-
 	string animName;
 
-	public float maxSpeed;
 	public Path path;
 
 	// Use this for initialization
 	void Start () 
 	{
+		Reset();
 		animName = animation.animation.name;
+	}
 
-		position = Vector3.zero;
-		velocity = Vector3.zero;
+	protected override void Reset()
+	{
+		base.Reset();
+
+		Position = new Vector2(transform.position.x, transform.position.z);
+	
+		//Forward = ???;
+		//Side = RotateForwardToSide(Forward);
 	}
 
 	void SetAnimation(string name)

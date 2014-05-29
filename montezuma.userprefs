@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\EDGEClient\Assets\Scripts\Data\UserData.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Utility.cs">
     <Files>
-      <File FileName="..\EDGEClient\Assets\Scripts\Data\UserData.cs" Line="176" Column="20" />
+      <File FileName="Assets\Utility.cs" Line="31" Column="2" />
+      <File FileName="Assets\Agent.cs" Line="156" Column="4" />
+      <File FileName="Assets\Monster.cs" Line="24" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
