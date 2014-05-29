@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Externals\TerrainToolkit\TerrainToolkit.cs" />
      <Compile Include="Assets\Monster.cs" />
+     <Compile Include="Assets\Path.cs" />
      <None Include="Assets\Externals\NGUI\Resources\Shaders\Unlit - Text 2.shader" />
      <None Include="Assets\Externals\NGUI\Resources\Shaders\Unlit - Text 1.shader" />
      <None Include="Assets\Externals\NGUI\Resources\Shaders\Unlit - Transparent Colored 2.shader" />

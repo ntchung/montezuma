@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Monster.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\EDGEClient\Assets\Scripts\Data\UserData.cs">
     <Files>
-      <File FileName="Assets\Monster.cs" Line="26" Column="26" />
+      <File FileName="..\EDGEClient\Assets\Scripts\Data\UserData.cs" Line="176" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
