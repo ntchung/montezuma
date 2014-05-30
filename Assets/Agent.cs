@@ -97,12 +97,12 @@ public class Agent : MonoBehaviour
 		}
 	}
 
-	protected Vector2 RotateForwardToSide(Vector2 v)
+	public Vector2 RotateForwardToSide(Vector2 v)
 	{
 		return new Vector2(-v.y, v.x);
 	}
 
-	protected virtual void Reset()
+	public virtual void Reset()
 	{
 		speed = 0.0f;
 		radius = 0.5f;
@@ -113,13 +113,18 @@ public class Agent : MonoBehaviour
 		smoothedAcceleration = Vector2.zero;
 	}
 
-	protected void RegenerateLocalSpace(Vector2 newVelocity)
+	public void RegenerateLocalSpace(Vector2 newVelocity)
 	{
 		if (speed > 0.0f)
 		{
 			forward = newVelocity / speed;
 			side = RotateForwardToSide(forward);
 		}
+	}
+
+	public Vector2 PredictFuturePosition (float predictionTime)
+	{
+		return position + (Velocity * predictionTime);
 	}
 
 	protected Vector2 AdjustRawSteeringForce(Vector2 force)
@@ -166,5 +171,24 @@ public class Agent : MonoBehaviour
 		position += newVelocity * elapsedTime;
 
 		RegenerateLocalSpace(newVelocity);
+	}
+
+	protected Vector2 SteerForSeek(Vector2 target)
+	{
+		Vector2 desiredVelocity = target - position;
+		return desiredVelocity - Velocity;
+	}
+
+	protected Vector2 SteerToStayOnPath (float predictionTime, Path path)
+	{
+		Vector2 futurePosition = PredictFuturePosition(predictionTime);
+		
+		Vector2 tangent;
+		float outside;
+
+		Vector2 onPath = path.MapPointToPath(futurePosition, out tangent, out outside);
+		
+		if (outside < 0.0f)	return Vector2.zero;
+		else return SteerForSeek(onPath);
 	}
 }
