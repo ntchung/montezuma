@@ -191,4 +191,32 @@ public class Agent : MonoBehaviour
 		if (outside < 0.0f)	return Vector2.zero;
 		else return SteerForSeek(onPath);
 	}
+
+	protected Vector2 SteerToFollowPath(int direction, float predictionTime, Path path)
+	{
+		float pathDistanceOffset = direction * predictionTime * speed;
+		Vector2 futurePosition = PredictFuturePosition(predictionTime);
+		
+		float nowPathDistance =	path.MapPointToPathDistance(position);
+		float futurePathDistance = path.MapPointToPathDistance(futurePosition);
+		
+		bool rightway = ((pathDistanceOffset > 0) ? (nowPathDistance < futurePathDistance) : (nowPathDistance > futurePathDistance));
+
+		Vector2 tangent;
+		float outside;
+
+		Vector2 onPath = path.MapPointToPath(futurePosition, out tangent, out outside);
+		
+		if ((outside < 0.0f) && rightway)
+		{
+			return Vector2.zero;
+		}
+		else
+		{
+			float targetPathDistance = nowPathDistance + pathDistanceOffset;
+			Vector2 target = path.MapPathDistanceToPoint(targetPathDistance);
+			
+			return SteerForSeek (target);
+		}
+	}
 }
