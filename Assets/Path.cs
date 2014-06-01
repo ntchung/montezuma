@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 
-public class Path : MonoBehaviour 
+public class Path 
 {
 	float scale;
 
@@ -11,10 +11,6 @@ public class Path : MonoBehaviour
 			return scale;
 		}
 	}
-
-	public GameObject[] beacons;
-
-	private List<Vector3> displayPoints = null;
 
 	private float radius = 0.0f;
 
@@ -32,25 +28,16 @@ public class Path : MonoBehaviour
 
 	private Vector2 chosen;
 
-	// Use this for initialization
-	void Start () 
+	public Path(List<Vector3> checkPoints) 
 	{
 		scale = 5.0f;
 
-		displayPoints = new List<Vector3>();
-
-		numPoints = 0;
+		numPoints = checkPoints.Count;
 		points = new List<Vector2>();
 
-		for (int i = 0; i < beacons.Length; i++)
+		for (int i = 0; i < numPoints; i++)
 		{
-			Vector3 pos = beacons[i].transform.position;
-			pos.y = 10.0f;
-
-			displayPoints.Add(pos);
-
-			numPoints++;
-			points.Add(new Vector2(pos.x, pos.z) / scale);
+			points.Add(new Vector2(checkPoints[i].x, checkPoints[i].z) / scale);
 		}
 
 		normals = new Vector2[numPoints - 1];
@@ -64,22 +51,6 @@ public class Path : MonoBehaviour
 			normals[i] /= lengths[i];
 
 			totalLength += lengths[i];
-		}
-	}
-	
-	// Update is called once per frame
-	void Update () 
-	{
-	
-	}
-
-	public void OnDrawGizmos()
-	{
-		if (points == null) return;
-
-		for (int i = 0; i < numPoints - 1; i++)
-		{
-			Gizmos.DrawLine(displayPoints[i], displayPoints[i + 1]);
 		}
 	}
 
