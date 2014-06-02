@@ -1,13 +1,26 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Externals\TerrainToolkit\Editor\TerrainToolkitEditor.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\GROWClient\Assets\Scripts\GUI\Home\HomeGUI.cs">
     <Files>
-      <File FileName="..\GROWClient\Assets\Scripts\Managers\Database.cs" Line="1" Column="1" />
-      <File FileName="..\GROWClient\Assets\Scripts\Managers\ActorProperties.cs" Line="1" Column="1" />
-      <File FileName="..\GROWClient\Assets\Externals\NGUI\Scripts\UI\UIFont.cs" Line="1" Column="1" />
-      <File FileName="..\GROWClient\Assets\Scripts\Battle\MapBlock.cs" Line="1" Column="1" />
-      <File FileName="..\GROWClient\Assets\Scripts\Battle\Actor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Externals\TerrainToolkit\Editor\TerrainToolkitEditor.cs" Line="47" Column="103" />
+      <File FileName="..\GROWClient\Assets\Scripts\GUI\Home\HomeGUI.cs" Line="254" Column="2" />
+      <File FileName="..\GROWClient\Assets\Scripts\Scenes\User_Colony_Account_Login.cs" Line="68" Column="6" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\RemoteFeatures\EntryPoints.cs" Line="11" Column="38" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\RemoteFeatures\UserModel.cs" Line="77" Column="22" />
+      <File FileName="..\GROWClient\Assets\Scripts\Managers\GlobalGameData.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\GUI\UserColony\UserColonyHomeGUI.cs" Line="241" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Scenes\Multiplayer_Battle.cs" Line="106" Column="120" />
+      <File FileName="..\GROWClient\Assets\Externals\GloopsUnitySDK\SDK\SceneManager\SceneNode.cs" Line="22" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\UserColony\UserColonyHomeTileMap.cs" Line="701" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Scenes\User_Colony_Home.cs" Line="112" Column="92" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\LevelExporter.cs" Line="253" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Managers\NativeGloopsGame.cs" Line="167" Column="39" />
+      <File FileName="..\GROWClient\Assets\Scripts\Battle\BattleManager.cs" Line="106" Column="21" />
+      <File FileName="..\GROWClient\Assets\Scripts\Battle\TileMap.cs" Line="39" Column="3" />
+      <File FileName="..\GROWClient\Assets\Externals\GloopsUnitySDK\SDK\Common\RemoteFeature.cs" Line="408" Column="9" />
+      <File FileName="..\GROWClient\Assets\Externals\GloopsUnitySDK\SDK\Common\RemoteFeatureManager.cs" Line="47" Column="39" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\RemoteFeatures\UserInfoRemote.cs" Line="1" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Colony\RemoteFeatures\GROWProtocolFallback.cs" Line="136" Column="1" />
+      <File FileName="..\GROWClient\Assets\Scripts\Managers\ActorProperties.cs" Line="340" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
