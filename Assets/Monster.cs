@@ -60,7 +60,7 @@ public class Monster : Agent
 		Vector2 steeringForce = Forward;
 				
 		const float pfLeadTime = 3.0f;
-		Vector2 pathFollow = SteerToStayOnPath(pfLeadTime, path);
+		Vector2 pathFollow = SteerToFollowPath(1, pfLeadTime, path);
 
 		steeringForce += pathFollow * 0.5f;
 

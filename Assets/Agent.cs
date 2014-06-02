@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 public class Agent : MonoBehaviour 
 {
@@ -173,6 +174,33 @@ public class Agent : MonoBehaviour
 		RegenerateLocalSpace(newVelocity);
 	}
 
+	protected float	PredictNearestApproachTime(Agent other)
+	{
+		Vector2 myVelocity = Velocity;
+		Vector2 otherVelocity = other.Velocity;
+		Vector2 relVelocity = otherVelocity - myVelocity;
+		float relSpeed = relVelocity.magnitude;
+		
+		if (relSpeed == 0.0f) return 0.0f;
+
+		Vector2 relTangent = relVelocity / relSpeed;
+		Vector2 relPosition = position - other.position;
+		float projection = Vector2.Dot(relTangent, relPosition);
+
+		return projection / relSpeed;
+	}
+
+	protected float	ComputeNearestApproachPositions(Agent other, float time, out Vector2 ourPosition, out Vector2 hisPosition)
+	{
+		Vector2 myTravel = forward * speed * time;
+		Vector2 otherTravel = other.forward * other.speed * time;
+		
+		ourPosition = position + myTravel;
+		hisPosition = other.position + otherTravel;
+		
+		return Vector2.Distance(ourPosition, hisPosition);
+	}
+
 	protected Vector2 SteerForSeek(Vector2 target)
 	{
 		Vector2 desiredVelocity = target - position;
@@ -190,5 +218,117 @@ public class Agent : MonoBehaviour
 		
 		if (outside < 0.0f)	return Vector2.zero;
 		else return SteerForSeek(onPath);
+	}
+
+	protected Vector2 SteerToFollowPath(int direction, float predictionTime, Path path)
+	{
+		float pathDistanceOffset = direction * predictionTime * speed;
+		Vector2 futurePosition = PredictFuturePosition(predictionTime);
+		
+		float nowPathDistance =	path.MapPointToPathDistance(position);
+		float futurePathDistance = path.MapPointToPathDistance(futurePosition);
+		
+		bool rightway = ((pathDistanceOffset > 0) ? (nowPathDistance < futurePathDistance) : (nowPathDistance > futurePathDistance));
+
+		Vector2 tangent;
+		float outside;
+
+		path.MapPointToPath(futurePosition, out tangent, out outside);
+		
+		if ((outside < 0.0f) && rightway)
+		{
+			return Vector2.zero;
+		}
+		else
+		{
+			float targetPathDistance = nowPathDistance + pathDistanceOffset;
+			Vector2 target = path.MapPathDistanceToPoint(targetPathDistance);
+			
+			return SteerForSeek (target);
+		}
+	}
+
+	protected Vector2 SteerToAvoidCloseNeighbors(float minSeparationDistance, List<Agent> others)
+	{
+		foreach (Agent other in others)
+		{
+			if (other == this) continue;
+
+			float sumOfRadii = radius + other.radius;
+			float minCenterToCenter = minSeparationDistance + sumOfRadii;
+			Vector2 offset = other.position - position;
+			float currentDistance = offset.magnitude;
+			
+			if (currentDistance < minCenterToCenter)
+			{
+				return Utility.PerpendicularComponent(-offset, forward);
+			}
+		}
+		
+		return Vector2.zero;
+	}
+
+	protected Vector2 SteerToAvoidNeighbors(float minTimeToCollision, List<Agent> others)
+	{
+		Vector2 separation = SteerToAvoidCloseNeighbors(0.0f, others);
+		if (separation != Vector2.zero) return separation;
+		
+		float steer = 0.0f;
+		Agent threat = null;
+		
+		float minTime = minTimeToCollision;
+		
+		Vector2 threatPositionAtNearestApproach = position;
+
+		Vector2 threatPosition;
+		Vector2 ourPosition;
+		
+		foreach (Agent other in others)
+		{
+			if (other == this) continue;
+
+			float collisionDangerThreshold = radius * 2.0f;
+			float time = PredictNearestApproachTime(other);
+			
+			if ((time >= 0.0f) && (time < minTime))
+			{
+				if (ComputeNearestApproachPositions(other, time, out ourPosition, out threatPosition) < collisionDangerThreshold)
+				{
+					minTime = time;
+					threat = other;
+
+					threatPositionAtNearestApproach = threatPosition;
+				}
+			}
+		}
+		
+		if (threat != null)
+		{
+			float parallelness = Vector2.Dot(forward, threat.forward);
+			float angle = 0.707f;
+			
+			if (parallelness < -angle)
+			{
+				Vector2 offset = threatPositionAtNearestApproach - position;
+				float sideDot = Vector2.Dot(offset, side);
+				steer = (sideDot > 0.0f) ? -1.0f : 1.0f;
+			}
+			else if (parallelness > angle)
+			{
+				Vector2 offset = threat.position - position;
+				float sideDot = Vector2.Dot(offset, side);
+				steer = (sideDot > 0.0f) ? -1.0f : 1.0f;
+			}
+			else
+			{
+				if (threat.speed <= speed)
+				{
+					float sideDot = Vector2.Dot(side, threat.Velocity);
+					steer = (sideDot > 0.0f) ? -1.0f : 1.0f;
+				}
+			}
+		}
+		
+		return side * steer;
 	}
 }
