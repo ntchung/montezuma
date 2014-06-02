@@ -48,6 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\Agent.cs" />
      <Compile Include="Assets\Externals\TerrainToolkit\TerrainToolkit.cs" />
+     <Compile Include="Assets\GridMap.cs" />
+     <Compile Include="Assets\GridMapItem.cs" />
      <Compile Include="Assets\Main.cs" />
      <Compile Include="Assets\Monster.cs" />
      <Compile Include="Assets\Path.cs" />
