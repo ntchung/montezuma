@@ -4,6 +4,11 @@ using System.Collections.Generic;
 
 public class Agent : MonoBehaviour 
 {
+	static public List<Agent> neighbors = new List<Agent>();
+
+	public GridMap gridMap;
+	public GridMapItem gridMapItem;
+
 	Vector2 position;
 
 	public Vector2 Position {
@@ -105,6 +110,8 @@ public class Agent : MonoBehaviour
 
 	public virtual void Reset()
 	{
+		gridMapItem = gridMap.CreateItem(position, this);
+
 		speed = 0.0f;
 		radius = 0.5f;
 
@@ -172,6 +179,8 @@ public class Agent : MonoBehaviour
 		position += newVelocity * elapsedTime;
 
 		RegenerateLocalSpace(newVelocity);
+
+		gridMap.UpdateItemPosition(gridMapItem, position);
 	}
 
 	protected float	PredictNearestApproachTime(Agent other)
@@ -330,5 +339,16 @@ public class Agent : MonoBehaviour
 		}
 		
 		return side * steer;
+	}
+
+	public void FindNeighborsCallback(object obj)
+	{
+		neighbors.Add(obj as Agent);
+	}
+
+	public void FindNeighbors(float radius)
+	{
+		neighbors.Clear();
+		gridMap.FindItems(position, radius, FindNeighborsCallback); 
 	}
 }

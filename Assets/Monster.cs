@@ -10,20 +10,21 @@ public class Monster : Agent
 	// Use this for initialization
 	void Start () 
 	{
-		Reset();
 		animName = animation.animation.name;
+
+		Position = new Vector2(transform.position.x, transform.position.z) / path.Scale;
+		
+		Forward = Vector2.up;
+		Side = RotateForwardToSide(Forward);
+		
+		SetAnimation("walk");
+
+		Reset();
 	}
 
 	public override void Reset()
 	{
 		base.Reset();
-
-		Position = new Vector2(transform.position.x, transform.position.z) / path.Scale;
-	
-		Forward = Vector2.up;
-		Side = RotateForwardToSide(Forward);
-
-		SetAnimation("walk");
 	}
 
 	void SetAnimation(string name)
@@ -58,11 +59,32 @@ public class Monster : Agent
 	public Vector2 DetermineCombinedSteering(float elapsedTime)
 	{
 		Vector2 steeringForce = Forward;
-				
-		const float pfLeadTime = 3.0f;
-		Vector2 pathFollow = SteerToFollowPath(1, pfLeadTime, path);
 
-		steeringForce += pathFollow * 0.5f;
+		const float leakThrough = 0.1f;
+
+		Vector2 collisionAvoidance = Vector2.zero;
+		float caLeadTime = 1.5f;
+		
+		float maxRadius = caLeadTime * MaxSpeed * 2.0f;
+
+		FindNeighbors(maxRadius);
+
+		if (leakThrough < UnityEngine.Random.Range(0.0f, 1.0f))
+		{
+			collisionAvoidance = SteerToAvoidNeighbors(caLeadTime, neighbors) * 2.0f;
+		}
+		
+		if (collisionAvoidance != Vector2.zero)
+		{
+			steeringForce += collisionAvoidance;
+		}
+		else 
+		{
+			const float pfLeadTime = 3.0f;
+			Vector2 pathFollow = SteerToFollowPath(1, pfLeadTime, path);
+
+			steeringForce += pathFollow * 0.5f;
+		}
 
 		return steeringForce;
 	}

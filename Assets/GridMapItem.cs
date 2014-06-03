@@ -3,27 +3,12 @@ using System.Collections;
 
 public class GridMapItem
 {
-	private GridMap map;
+	public Vector2 position;
 
-	private int bin;
-	private object obj;
+	public object obj;
 
-	private GridMapItem next;
+	public int bin;
 
-	public GridMapItem(GridMap _map, object _obj)
-	{
-		map = _map;
-		obj = _obj;
-
-		next = null;
-	}
-
-	public void UpdatePosition(Vector2 position)
-	{
-		int newBin = map.GetBinIndex(position);
-		if (newBin != bin)
-		{
-			//TO DO
-		}
-	}
+	public GridMapItem prev;
+	public GridMapItem next;
 }
