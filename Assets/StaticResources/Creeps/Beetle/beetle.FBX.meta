@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: d6b460d033c899e40bdcb047ba198ac2
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Bone_Butt
+    100004: Bone_Head
+    100006: Bone_LegEnd01
+    100008: Bone_LegEnd02
+    100010: Bone_LegEnd03
+    100012: Bone_LegEnd04
+    100014: Bone_LFLeg02
+    100016: Bone_LFLeg03
+    100018: Bone_LFLeg04
+    100020: Bone_LFLeg05
+    100022: Bone_LFLeg06
+    100024: Bone_LFLeg07
+    100026: Bone_LFLeg09
+    100028: Bone_LFLeg10
+    100030: Bone_LFLeg11
+    100032: Bone_LFLeg13
+    100034: Bone_LFLeg14
+    100036: Bone_LFLeg15
+    100038: Bone_Pelvis
+    100040: Bone_pincherLeft
+    100042: Bone_pincherRight
+    100044: Bone_Root
+    100046: Chest Ref
+    100048: Foot Left Rear Ref
+    100050: 'Foot Left Ref '
+    100052: Foot Right Rear Ref
+    100054: 'Foot Right Ref '
+    100056: 'Hand Left Ref '
+    100058: 'Hand Right Ref '
+    100060: Head - Ref
+    100062: m3bone_root
+    100064: Mesh02
+    100066: Mesh03
+    100068: Mesh08
+    100070: Mesh09
+    100072: Nerubian_Youngling1
+    100074: Nerubian_Youngling2
+    100076: Nerubian_Youngling3
+    100078: Object01
+    100080: Object02
+    100082: Object03
+    100084: Object04
+    100086: Object23
+    100088: Object24
+    100090: Object25
+    100092: Object32
+    100094: Object33
+    100096: Object34
+    100098: Object36
+    100100: Object37
+    100102: Object38
+    100104: Object39
+    100106: 'Origin Ref '
+    100108: 'OverHead Ref '
+    100110: splat
+    100112: Weapon - Ref
+    400000: //RootNode
+    400002: Bone_Butt
+    400004: Bone_Head
+    400006: Bone_LegEnd01
+    400008: Bone_LegEnd02
+    400010: Bone_LegEnd03
+    400012: Bone_LegEnd04
+    400014: Bone_LFLeg02
+    400016: Bone_LFLeg03
+    400018: Bone_LFLeg04
+    400020: Bone_LFLeg05
+    400022: Bone_LFLeg06
+    400024: Bone_LFLeg07
+    400026: Bone_LFLeg09
+    400028: Bone_LFLeg10
+    400030: Bone_LFLeg11
+    400032: Bone_LFLeg13
+    400034: Bone_LFLeg14
+    400036: Bone_LFLeg15
+    400038: Bone_Pelvis
+    400040: Bone_pincherLeft
+    400042: Bone_pincherRight
+    400044: Bone_Root
+    400046: Chest Ref
+    400048: Foot Left Rear Ref
+    400050: 'Foot Left Ref '
+    400052: Foot Right Rear Ref
+    400054: 'Foot Right Ref '
+    400056: 'Hand Left Ref '
+    400058: 'Hand Right Ref '
+    400060: Head - Ref
+    400062: m3bone_root
+    400064: Mesh02
+    400066: Mesh03
+    400068: Mesh08
+    400070: Mesh09
+    400072: Nerubian_Youngling1
+    400074: Nerubian_Youngling2
+    400076: Nerubian_Youngling3
+    400078: Object01
+    400080: Object02
+    400082: Object03
+    400084: Object04
+    400086: Object23
+    400088: Object24
+    400090: Object25
+    400092: Object32
+    400094: Object33
+    400096: Object34
+    400098: Object36
+    400100: Object37
+    400102: Object38
+    400104: Object39
+    400106: 'Origin Ref '
+    400108: 'OverHead Ref '
+    400110: splat
+    400112: Weapon - Ref
+    2300000: Nerubian_Youngling2
+    2300002: Nerubian_Youngling3
+    3300000: Nerubian_Youngling2
+    3300002: Nerubian_Youngling3
+    4300000: Nerubian_Youngling1
+    4300002: Nerubian_Youngling3
+    4300004: Nerubian_Youngling2
+    7400000: Idle
+    7400002: Walk
+    7400004: AttackMelee1
+    7400006: AttackMelee2
+    7400008: Hurt
+    7400010: Dying
+    9500000: //RootNode
+    13700000: Nerubian_Youngling1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 935
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 937
+      lastFrame: 960
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackMelee1
+      takeName: Take 001
+      firstFrame: 1035
+      lastFrame: 1074
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackMelee2
+      takeName: Take 001
+      firstFrame: 1305
+      lastFrame: 1350
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Take 001
+      firstFrame: 1038
+      lastFrame: 1075
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dying
+      takeName: Take 001
+      firstFrame: 1040
+      lastFrame: 1120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Nerubian_Youngling1
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/splat
+        weight: 1
+      - path: m3bone_root/splat/Nerubian_Youngling3
+        weight: 1
+      - path: m3bone_root/Bone_Root
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Object34
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Object01
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Object33
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Bone_LegEnd04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg13/Bone_LFLeg14/Bone_LFLeg15/Foot Left
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Object36
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Mesh02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Object37
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Bone_LegEnd03
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg04/Bone_LFLeg03/Bone_LFLeg02/Foot Left
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object38/Nerubian_Youngling2
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Butt/Object04
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Object24
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Object03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Object39
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Bone_LegEnd02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg09/Bone_LFLeg10/Bone_LFLeg11/Foot Right
+          Rear Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Object25
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Mesh03
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Object23
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Bone_LegEnd01
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_LFLeg07/Bone_LFLeg06/Bone_LFLeg05/Foot Right
+          Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Object02
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Pelvis/Chest Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Object32
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Mesh09
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherRight/Hand Right Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Mesh08
+        weight: 1
+      - path: 'm3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Hand Left Ref '
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Bone_pincherLeft/Weapon - Ref
+        weight: 1
+      - path: m3bone_root/Bone_Root/Bone_Head/Head - Ref
+        weight: 1
+      - path: 'm3bone_root/Origin Ref '
+        weight: 1
+      - path: 'm3bone_root/OverHead Ref '
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 'Origin Ref '
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
