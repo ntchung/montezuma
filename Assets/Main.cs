@@ -5,10 +5,10 @@ using System.Collections.Generic;
 public class Main : MonoBehaviour 
 {
 	public GameObject goblin;
+	public TerrainCollider terrainCollider;
 
 	private SmoothPath path = null;
-
-	private List<Vector3> displayPoints;
+	private List<Monster> monsters;
 
 	// Use this for initialization
 	void Start () 
@@ -43,6 +43,15 @@ public class Main : MonoBehaviour
 		path.SetCurveRadius(11, 2.0f);
 
 		path.Init();
+
+		monsters = new List<Monster>();
+
+		GameObject go = Instantiate(goblin) as GameObject;
+		Monster monster = go.GetComponent<Monster>();
+		monster.path = path;
+		monster.terrainData = terrainCollider.terrainData;
+
+		monsters.Add(monster);
 	}
 	
 	// Update is called once per frame

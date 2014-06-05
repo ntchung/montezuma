@@ -1,30 +1,34 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Monster : Agent 
+public class Monster : MonoBehaviour
 {
 	string animName;
 
-	public Path path;
+	public SmoothPath path;
+	public TerrainData terrainData;
+
+	private const float speed = 4.0f;
+	private float speedScale = 1.0f;
+	private float walkDist;
+
+	private int pathStartIndex;
+
+	private Vector3 terrainNormal;
+	private Vector3 prevPosition;
 
 	// Use this for initialization
 	void Start () 
 	{
 		animName = animation.animation.name;
-
-		Position = new Vector2(transform.position.x, transform.position.z) / path.Scale;
-		
-		Forward = Vector2.up;
-		Side = RotateForwardToSide(Forward);
-		
 		SetAnimation("walk");
 
-		Reset();
-	}
+		pathStartIndex = 0;
+		walkDist = 0.0f;
 
-	public override void Reset()
-	{
-		base.Reset();
+		UpdateMove();
+
+		prevPosition = transform.position;
 	}
 
 	void SetAnimation(string name)
@@ -35,57 +39,38 @@ public class Monster : Agent
 			animation.CrossFade(name);
 		}
 	}
-	
+
+	void UpdateMove()
+	{
+		Vector2 position, forward;
+		pathStartIndex = path.GetPathInfo(walkDist, out position, out forward, pathStartIndex);
+
+		float x = position.x / terrainData.size.x;
+		float y = position.y / terrainData.size.z;
+
+		float h = terrainData.GetInterpolatedHeight(x, y);
+
+		transform.position = new Vector3(position.x, h, position.y);
+		transform.rotation = Quaternion.LookRotation(new Vector3(forward.x, 0.0f, forward.y));
+	}
+
 	// Update is called once per frame
 	void Update () 
 	{
-		//float move = Input.GetAxis("Horizontal");
-		//if (move != 0.0f) SetAnimation("walk");
-		//else SetAnimation("idle");
+		Vector3 diff = transform.position - prevPosition;
+		float length = diff.magnitude;
 
-		float elapsedTime = Time.deltaTime;
-
-		ApplySteeringForce(DetermineCombinedSteering(elapsedTime), elapsedTime);
-		
-		Vector3 pos = transform.position;
-		pos.x = Position.x * path.Scale;
-		pos.z = Position.y * path.Scale;
-		transform.position = pos;
-
-		Vector3 forward = new Vector3(Forward.x, 0.0f, Forward.y);
-		transform.rotation = Quaternion.LookRotation(forward);
-	}
-
-	public Vector2 DetermineCombinedSteering(float elapsedTime)
-	{
-		Vector2 steeringForce = Forward;
-
-		const float leakThrough = 0.1f;
-
-		Vector2 collisionAvoidance = Vector2.zero;
-		float caLeadTime = 1.5f;
-		
-		float maxRadius = caLeadTime * MaxSpeed * 2.0f;
-
-		FindNeighbors(maxRadius);
-
-		if (leakThrough < UnityEngine.Random.Range(0.0f, 1.0f))
+		if (length < 1e-5f) speedScale = 1.0f;
+		else
 		{
-			collisionAvoidance = SteerToAvoidNeighbors(caLeadTime, neighbors) * 2.0f;
-		}
-		
-		if (collisionAvoidance != Vector2.zero)
-		{
-			steeringForce += collisionAvoidance;
-		}
-		else 
-		{
-			const float pfLeadTime = 3.0f;
-			Vector2 pathFollow = SteerToFollowPath(1, pfLeadTime, path);
-
-			steeringForce += pathFollow * 0.5f;
+			speedScale = Mathf.Clamp(-diff.y / length / 0.707f, -1.0f, 1.0f);
+			if (speedScale < 0.0f) speedScale = speedScale * 0.5f + 1.0f;
+			else speedScale = speedScale * 0.2f + 1.0f;
 		}
 
-		return steeringForce;
+		prevPosition = transform.position;
+
+		walkDist += Time.deltaTime * speed * speedScale;
+		UpdateMove();
 	}
 }
