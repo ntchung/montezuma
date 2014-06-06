@@ -6,8 +6,8 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: crates
-  m_Shader: {fileID: 4800000, guid: 7bcededa0ea455541b0f2803ff170fe3, type: 3}
+  m_Name: No Name
+  m_Shader: {fileID: 4800000, guid: c8b4873a2d71a254488bd93599f023bb, type: 3}
   m_ShaderKeywords: []
   m_CustomRenderQueue: -1
   m_SavedProperties:
@@ -17,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 5c7ec1ed01d5e114fb35ea5fda621e9b, type: 3}
+          m_Texture: {fileID: 2800000, guid: 5f1ce5beda67dc848b4b622b1222de1f, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats: {}
@@ -26,6 +26,3 @@ Material:
         first:
           name: _Color
         second: {r: 1, g: 1, b: 1, a: 1}
---- !u!1002 &2100001
-EditorExtensionImpl:
-  serializedVersion: 6

@@ -7,7 +7,9 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: castle-DecalMat
-  m_Shader: {fileID: 51, guid: 0000000000000000e000000000000000, type: 0}
+  m_Shader: {fileID: 51, guid: 0000000000000000f000000000000000, type: 0}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
   m_SavedProperties:
     serializedVersion: 2
     m_TexEnvs:
@@ -15,7 +17,7 @@ Material:
         first:
           name: _MainTex
         second:
-          m_Texture: {fileID: 2800000, guid: 8154e0e9fbd9ce34c9a6e5abe29548f0, type: 1}
+          m_Texture: {fileID: 2800000, guid: adddf0a2fe1d9c048954fd5d3debcb4c, type: 3}
           m_Scale: {x: 1, y: 1}
           m_Offset: {x: 0, y: 0}
     m_Floats:

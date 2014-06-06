@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 12d09c3eec5d59e4a8ebd26d56c93c1c
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Bone00
+    100002: Bone01
+    100004: Bone02
+    100006: Bone19
+    100008: Bone20
+    100010: Bone21
+    100012: Bone22
+    100014: Bone23
+    100016: Bone25
+    100018: Bone26
+    100020: Bone27
+    100022: Bone28
+    100024: Bone29
+    100026: Bone30
+    100028: Bone_head
+    100030: bone_new1
+    100032: bone_new2
+    100034: Chest Ref
+    100036: //RootNode
+    100038: 'Foot Left Ref '
+    100040: 'Foot Right Ref '
+    100042: G.Dracofly1
+    100044: G.Dracofly2
+    100046: G.Dracofly3
+    100048: G.Dracofly4
+    100050: G.Dracofly5
+    100052: G.Dracofly6
+    100054: Head Ref
+    100056: m3bone_root
+    100058: Mesh03
+    100060: Mesh07
+    100062: Mesh08
+    100064: Mesh09
+    100066: Mesh10
+    100068: Mesh28
+    100070: Mesh29
+    100072: Mesh30
+    100074: Mesh31
+    100076: Mesh33
+    100078: Mesh34
+    100080: Mesh35
+    100082: Object10
+    100084: 'Origin Ref '
+    100086: 'OverHead Ref '
+    100088: Weapon Ref
+    400000: Bone00
+    400002: Bone01
+    400004: Bone02
+    400006: Bone19
+    400008: Bone20
+    400010: Bone21
+    400012: Bone22
+    400014: Bone23
+    400016: Bone25
+    400018: Bone26
+    400020: Bone27
+    400022: Bone28
+    400024: Bone29
+    400026: Bone30
+    400028: Bone_head
+    400030: bone_new1
+    400032: bone_new2
+    400034: Chest Ref
+    400036: //RootNode
+    400038: 'Foot Left Ref '
+    400040: 'Foot Right Ref '
+    400042: G.Dracofly1
+    400044: G.Dracofly2
+    400046: G.Dracofly3
+    400048: G.Dracofly4
+    400050: G.Dracofly5
+    400052: G.Dracofly6
+    400054: Head Ref
+    400056: m3bone_root
+    400058: Mesh03
+    400060: Mesh07
+    400062: Mesh08
+    400064: Mesh09
+    400066: Mesh10
+    400068: Mesh28
+    400070: Mesh29
+    400072: Mesh30
+    400074: Mesh31
+    400076: Mesh33
+    400078: Mesh34
+    400080: Mesh35
+    400082: Object10
+    400084: 'Origin Ref '
+    400086: 'OverHead Ref '
+    400088: Weapon Ref
+    2300000: G.Dracofly5
+    3300000: G.Dracofly5
+    4300000: G.Dracofly1
+    4300002: G.Dracofly2
+    4300004: G.Dracofly3
+    4300006: G.Dracofly4
+    4300008: G.Dracofly6
+    4300010: G.Dracofly5
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: G.Dracofly1
+    13700002: G.Dracofly2
+    13700004: G.Dracofly3
+    13700006: G.Dracofly4
+    13700008: G.Dracofly6
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: m3bone_root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

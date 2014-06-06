@@ -1,0 +1,1130 @@
+fileFormatVersion: 2
+guid: 76958751c01273143989910d775579a7
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Chest Ref
+    100002: Default
+    100004: Face
+    100006: Giant Mantis1
+    100008: Giant Mantis2
+    100010: Giant Mantis3
+    100012: //RootNode
+    100014: Hand Left Ref
+    100016: Hand Right Ref
+    100018: Head Ref
+    100020: Left Antenna
+    100022: Left Antenna Tip
+    100024: Left Arm 1
+    100026: Left Arm 2
+    100028: Left Arm 3
+    100030: Left Arm Tip
+    100032: Left Front Hip
+    100034: Left Front Leg 1
+    100036: Left Front Leg 2
+    100038: Left Front Leg 3
+    100040: Left Front Leg Tip
+    100042: Left Rear Hip
+    100044: Left Rear Leg 1
+    100046: Left Rear Leg 2
+    100048: Left Rear Leg 3
+    100050: Left Rear Leg Tip
+    100052: Left Shoulder
+    100054: Lower Thorax
+    100056: m3bone_root
+    100058: Mid Thorax
+    100060: Neck
+    100062: Origin
+    100064: Origin Ref
+    100066: OverHead Ref
+    100068: Right Antenna
+    100070: Right Antenna Tip
+    100072: Right Arm 1
+    100074: Right Arm 2
+    100076: Right Arm 3
+    100078: Right Arm Tip
+    100080: Right Front Hip
+    100082: Right Front Leg 1
+    100084: Right Front Leg 2
+    100086: Right Front Leg 3
+    100088: Right Front Leg Tip
+    100090: Right Rear Hip
+    100092: Right Rear Leg 1
+    100094: Right Rear Leg 2
+    100096: Right Rear Leg 3
+    100098: Right Rear Leg Tip
+    100100: Right Shoulder
+    100102: Tail 1
+    100104: Tail 2
+    100106: Tail 3
+    100108: Upper Thorax
+    400000: Chest Ref
+    400002: Default
+    400004: Face
+    400006: Giant Mantis1
+    400008: Giant Mantis2
+    400010: Giant Mantis3
+    400012: //RootNode
+    400014: Hand Left Ref
+    400016: Hand Right Ref
+    400018: Head Ref
+    400020: Left Antenna
+    400022: Left Antenna Tip
+    400024: Left Arm 1
+    400026: Left Arm 2
+    400028: Left Arm 3
+    400030: Left Arm Tip
+    400032: Left Front Hip
+    400034: Left Front Leg 1
+    400036: Left Front Leg 2
+    400038: Left Front Leg 3
+    400040: Left Front Leg Tip
+    400042: Left Rear Hip
+    400044: Left Rear Leg 1
+    400046: Left Rear Leg 2
+    400048: Left Rear Leg 3
+    400050: Left Rear Leg Tip
+    400052: Left Shoulder
+    400054: Lower Thorax
+    400056: m3bone_root
+    400058: Mid Thorax
+    400060: Neck
+    400062: Origin
+    400064: Origin Ref
+    400066: OverHead Ref
+    400068: Right Antenna
+    400070: Right Antenna Tip
+    400072: Right Arm 1
+    400074: Right Arm 2
+    400076: Right Arm 3
+    400078: Right Arm Tip
+    400080: Right Front Hip
+    400082: Right Front Leg 1
+    400084: Right Front Leg 2
+    400086: Right Front Leg 3
+    400088: Right Front Leg Tip
+    400090: Right Rear Hip
+    400092: Right Rear Leg 1
+    400094: Right Rear Leg 2
+    400096: Right Rear Leg 3
+    400098: Right Rear Leg Tip
+    400100: Right Shoulder
+    400102: Tail 1
+    400104: Tail 2
+    400106: Tail 3
+    400108: Upper Thorax
+    4300000: Giant Mantis1
+    4300002: Giant Mantis2
+    4300004: Giant Mantis3
+    7400000: Idle
+    7400002: Walk
+    7400004: Hurt
+    7400006: Dying
+    7400008: AttackMelee1
+    7400010: AttackMelee2
+    9500000: //RootNode
+    13700000: Giant Mantis1
+    13700002: Giant Mantis2
+    13700004: Giant Mantis3
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 1
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Idle
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: Take 001
+      firstFrame: 125
+      lastFrame: 145
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Hurt
+      takeName: Take 001
+      firstFrame: 280
+      lastFrame: 310
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Dying
+      takeName: Take 001
+      firstFrame: 360
+      lastFrame: 420
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackMelee1
+      takeName: Take 001
+      firstFrame: 145
+      lastFrame: 162
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: AttackMelee2
+      takeName: Take 001
+      firstFrame: 185
+      lastFrame: 215
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Giant Mantis1
+        weight: 1
+      - path: Giant Mantis2
+        weight: 1
+      - path: Giant Mantis3
+        weight: 1
+      - path: m3bone_root
+        weight: 1
+      - path: m3bone_root/Origin
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Front Hip/Left Front Leg 1/Left Front Leg 2/Left
+          Front Leg 3/Left Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Front Hip/Right Front Leg 1/Right Front Leg
+          2/Right Front Leg 3/Right Front Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Left Rear Hip/Left Rear Leg 1/Left Rear Leg 2/Left
+          Rear Leg 3/Left Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3
+        weight: 1
+      - path: m3bone_root/Origin/Right Rear Hip/Right Rear Leg 1/Right Rear Leg 2/Right
+          Rear Leg 3/Right Rear Leg Tip
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2
+        weight: 1
+      - path: m3bone_root/Origin/Tail 1/Tail 2/Tail 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Face
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Left Antenna/Left
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Right Antenna/Right
+          Antenna Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Neck/Head Ref/OverHead
+          Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Left Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Left Shoulder/Left
+          Arm 1/Left Arm 2/Left Arm 3/Hand Left Ref
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Right Arm Tip
+        weight: 1
+      - path: m3bone_root/Origin/Lower Thorax/Mid Thorax/Upper Thorax/Right Shoulder/Right
+          Arm 1/Right Arm 2/Right Arm 3/Hand Right Ref
+        weight: 1
+      - path: m3bone_root/Origin/Chest Ref
+        weight: 1
+      - path: m3bone_root/Default
+        weight: 1
+      - path: m3bone_root/Default/Origin Ref
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: m3bone_root
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -141,7 +141,7 @@ ModelImporter:
     bakeSimulation: 0
     optimizeGameObjects: 1
     motionNodeName: 
-    animationCompression: 3
+    animationCompression: 1
     animationRotationError: .5
     animationPositionError: .5
     animationScaleError: .5
